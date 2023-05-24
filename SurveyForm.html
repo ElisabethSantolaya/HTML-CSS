@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+  </head>
+  <body>
+    <h1 id="title">Build a Survey Form </h1>
+    <p id="description">Please fill out form with the required information</p>
+      <div class="cuerpo">
+      <form id="survey-form">
+        <fieldset>
+          <label for="name-label" id="name-label">Name
+            <input id="name" name="name" type="text" placeholder="Enter your name" required/>
+          </label>
+          <label for="email-label" id="email-label">Email
+            <input id="email" name="email" type="email" placeholder="Enter your Email" required/>
+          </label>
+          <label for="number-label" id="number-label">Name
+            <input id="number" name="number" type="number" max="9" min="9" placeholder="Enter your number" />
+          </label>
+        </fieldset>
+        <label for="select-dropdown">Which option best describes your current role?
+          <select id="dropdown">
+            <option>select one</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <fieldset>Choose your account type: 
+          <label for="personal-account">
+            <input id="p-account" type="radio" name="account-type" class="inline" value="Personal Account"/>Personal Account
+          </label>
+          <label for="Business-account">
+            <input id="b-account" type="radio" name="account-type" class="inline" value="Business Account" />Business Account
+          </label>
+        </fieldset>
+        <fieldset>What kind of projects do you prefer?: 
+          <label for="Fprojects">
+            <input id="Front-Projects" type="checkbox" name="projects" class="inline" value="Front-end Projects" />Front-end Projects
+          </label>
+          <label for="Bprojects">
+            <input id="Back-Projects" type="checkbox" name="projects" class="inline" value="Back-end Projects" />Back-end Projects
+          </label>
+          <label for="DVisualization">
+            <input id="Data-Visualization" type="checkbox" name="projects" class="inline" value="Data Visualization" />Data Visualization
+          </label>
+          <label for="OSC">
+            <input id="OSCommunity" type="checkbox" name="projects" class="inline" value="Open Source Community" />Open Source Community
+          </label>
+          <label for="GProjects">
+            <input id="Git-Projects" type="checkbox" name="projects" class="inline" value="Gitter Projects" />Gitter Projects
+          </label>
+        </fieldset>
+        <label for="comments">Additional Comments: 
+          <textarea id="AddComments" name="comments" rows="5" cols="35" placeholder="Add a comment...">
+          </textarea>
+        </label>
+        <fieldset>
+          <input type="submit" value="submit" id="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

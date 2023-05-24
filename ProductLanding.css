@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: rgb(192, 190, 190);
+  color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  color: rgb(44, 44, 43);
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+#video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 720px;
+}
+
+#form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 477px;
+  margin-left: 865px;
+  font-size: 15px;
+}
+
+#submit {
+  padding: 10px;
+  background-color: rgb(255, 187, 0);
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 500px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-left: 865px;
+  margin-bottom: 20px;
+
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin-top: 0;
+  background-color: rgb(192, 190, 190);
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+#bajo{
+  display: flex;
+}
+#select{
+  background-color: rgb(255, 187, 0);
+  color: black;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+}
+
+#section1{
+  width: 500px;
+  margin-left: 100px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
+#section2{
+  width: 500px;
+  margin-left: 185px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
+#section3{
+  width: 500px;
+  margin-left: 185px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
+.precio{
+  
+  font-weight: bold;
+}
+
